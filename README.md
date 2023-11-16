@@ -1,4 +1,10 @@
-# AWS Auto Scaling Group (ASG) Terraform module
+# Caution before using this module
+
+- Forked from [`terraform-aws-autoscale`](https://registry.terraform.io/modules/terraform-aws-modules/autoscaling/aws/latest)!  
+- Origin Version is `v7.2.0`, now.  
+- Just Added: ignoring `target_group_arns`  
+
+## AWS Auto Scaling Group (ASG) Terraform module
 
 Terraform module which creates Auto Scaling resources on AWS.
 
